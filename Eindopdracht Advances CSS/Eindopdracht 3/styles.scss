@@ -1,0 +1,53 @@
+
+body{
+    background-color: #c3cfe2;
+    padding: 15 0 15 15px;
+    margin:15 0 15 15px;
+}
+.link-group {
+    display:flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 25px;
+    align-items: flex-end;
+    
+}
+.link-group :hover {
+    background-color: #3e8e41;
+    transform: translateY(-200px);
+
+    
+}
+.social_media_link {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+
+
+    &__facebook{
+        background-color: #3b5998;
+        color: white;
+    }
+
+    &__twitter{
+        background-color: #00aced;
+        color: white;
+    }
+    &__linkedin{
+        background-color: #007bb6;
+        color: white;
+    }
+    }
+    
+ 
+/*
+.button__social-media--facebook::before {
+    content: "\f39e";
+
+    
+}*/
+
+
+
+
+
